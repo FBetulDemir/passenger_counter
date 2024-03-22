@@ -43,6 +43,7 @@ button {
 
 #increment-btn {
     background: darkred;
+    margin-bottom: 5%;
 }
 
 #save-btn {
