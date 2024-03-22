@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/station.jpg");
     background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     height: 100vh;
 }
@@ -9,12 +9,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 5%;
     margin: 20%;
     color: antiquewhite;
     border: 2px solid antiquewhite;
     background-color: transparent;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
 }
 
 h1 {
@@ -23,8 +26,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
-    
+    font-size: 50px; 
     margin-bottom: 20px;
 }
 
