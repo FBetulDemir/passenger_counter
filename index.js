@@ -1,20 +1,21 @@
-// grab the count-el element, store it in a countEl variable
+let saveEl= document.getElementById("save-el");
 let countEl = document.getElementById("count-el");
 
-// console.log(countEl)
 
 let count = 0;
 
 function increment() {
-    count = count + 1
-    // set countEl's innerText to the count
-    countEl.innerText = count
+    count += 1
+    countEl.textContent = count
 }
 
-increment();
+// increment();
 
 function save(){
-    console.log(count)
+    let countString = count + "- "
+    saveEl.textContent += countString
+    countEl.textContent = 0
+    count = 0
 }
 
-save()
+// save()
